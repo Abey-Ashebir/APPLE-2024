@@ -1,0 +1,23 @@
+.product-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse; /* Reverse the order for odd index */
+}
+
+.image-container {
+    flex: 1;
+}
+
+.info-container {
+    padding: 20px;
+    text-align: left;
+    flex: 1;
+}

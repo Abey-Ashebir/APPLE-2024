@@ -1,0 +1,31 @@
+[
+    {
+        "id": 2,
+        "name": "iPhone 12",
+        "description": "Powerful performance with A14 Bionic chip.",
+        "product_url": "https://example.com/products/iphone-12",
+        "image_url": "../../src/images/iPhone 11 Mini Leak.jpg"
+      },
+    {
+      "id": 1,
+      "name": "iPhone 13",
+      "description": "Latest model with A15 Bionic chip.",
+      "product_url": "https://example.com/products/iphone-13",
+      "image_url": "../../src/images/iphone12.jpg"
+    },
+    {
+      "id": 2,
+      "name": "iPhone 12",
+      "description": "Powerful performance with A14 Bionic chip.",
+      "product_url": "https://example.com/products/iphone-12",
+      "image_url": "../../src/images/download.jpg"
+    },
+    {
+        "id": 2,
+        "name": "iPhone 12",
+        "description": "Powerful performance with A14 Bionic chip.",
+        "product_url": "https://example.com/products/iphone-12",
+        "image_url": "../../src/images/iPhone16.jpg"
+      }
+  ]
+  

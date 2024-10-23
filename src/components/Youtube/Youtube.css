@@ -1,0 +1,77 @@
+/* Main wrapper for the videos */
+.youtubeVideoWrapper {
+    padding: 40px 0;
+    background-color: #f8f9fa;
+}
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+/* Flexbox grid for videos */
+.videoGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 0 20px; /* Added padding to prevent videos from touching the edges */
+}
+
+/* Video card styling */
+.videoCard {
+    flex: 1 1 calc(33.333% - 20px); /* 3 items per row */
+    box-sizing: border-box; /* Ensures padding and border are included in width */
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.videoCard:hover {
+    transform: translateY(-10px);
+}
+
+/* Thumbnail styling */
+.videoThumbnail img {
+    height: auto; /* Ensures proper scaling of the image */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.videoThumbnail img:hover {
+    transform: scale(1.05);
+}
+
+/* Video details */
+.videoDetails h2 {
+    font-size: 1.2rem;
+    color: #1608e6;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.videoDetails p {
+    color: #777;
+    font-size: 0.1rem;
+    margin-left: 20px;
+}
+
+
+/* Loading and error messages */
+.loading, .error {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .videoCard {
+        flex: 1 1 calc(50% - 20px); /* 2 items per row for medium screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .videoCard {
+        flex: 1 1 100%; /* 1 item per row for small screens */
+    }
+}
